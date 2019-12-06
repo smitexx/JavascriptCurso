@@ -1130,3 +1130,19 @@ tsc fichero.ts
 5º para compilar en modo observador y no tener que compilar a cada cambio tenemos el siguiente comando
 
 tsc -w *.ts //este comando hay que hacerlo desde cygwin para que coja la expresion regular.
+
+
+ANGULAR
+
+INSTALACIÓN
+npm install -g @angular/cli
+
+DESINSTALACIÓN 
+npm uninstall -g @angular/cli
+npm cache verify
+npm cache clear --force
+
+
+GENERAR PROYECTO ANGULAR
+
+ng new nombre-proyecto
