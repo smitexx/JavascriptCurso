@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio DOM, eventos y funciones.</title>
+    <script type="text/javascript" src="js/formulario.js"></script>
+    <style>
+        .box {
+            width: 250px;
+            height: 250px;
+            float: left;
+            margin: 20px;
+        }
+
+        .dashed {
+            border: 3px dashed black;
+            padding: 20px;
+        }
+    </style>
+</head>
+<!--enunciado:
+1.Formulario campos: Nombres, apellidos y edad 
+2.Boton de enviar el formulario : eventos submit
+3.Mostrar esos datos por pantalla.
+4.Tener un boton que al darle click nos muestra los datos actuales del formulario.
+
+-->
+
+<body>
+    <h1>Vamos a hacer un bonito formulario</h1>
+    <div class="box">
+        <form action="#" onsubmit="return false;" method="POST" id="form_1">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" placeholder="nombre" name="nombre" id="nombre">
+            <br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" placeholder="apellidos" name="apellidos" id="apellidos">
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" placeholder="edad" name="edad" id="edad">
+            <br>
+            <input type="submit" value="enviar" id="submit">
+
+        </form>
+    </div>
+
+    <div class="box dashed">
+        <h3>Informacion del usuario</h3>
+        <hr>
+
+    </div>
+</body>
+
+</html>

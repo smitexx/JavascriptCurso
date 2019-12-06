@@ -1,0 +1,44 @@
+.titulo{
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    text-align: justify;
+}
+.navegacion ul li a{
+    color: pink;
+    font-family: fantasy !important;
+    display: block;
+    font-size:30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+}
+.entrada p{
+    font-size: 20px;
+}
+.entrada img{
+    padding-left: 10%;
+}
+.tabla tr {
+    font-size: 30px;
+    text-align: center; 
+} 
+.tabla{
+    padding-left: 20%;
+}
+#cuerpo{
+    background-color: blueviolet;
+   
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+
+}
+.excepcion{
+    font-size: 50px;
+    text-align: initial !important;   
+}
