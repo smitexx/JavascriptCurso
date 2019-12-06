@@ -1116,4 +1116,17 @@ var div_efectos = $("#efectos");
 
 
 
-***AJAX CON JQUERY***
+TYPESCRIPT
+
+
+1º instalar node.js 
+2º instalar typescript npm install -g typescript
+3º para usar ficheros ts hay que compilarlos 
+
+tsc fichero.ts
+
+4º esto nos genera un ficheros.js que añadiremos al proyecto
+
+5º para compilar en modo observador y no tener que compilar a cada cambio tenemos el siguiente comando
+
+tsc -w *.ts //este comando hay que hacerlo desde cygwin para que coja la expresion regular.
