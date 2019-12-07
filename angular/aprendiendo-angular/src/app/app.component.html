@@ -7,10 +7,13 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-<div>
-    <h1>bienvenido al {{title}} </h1>
-    <p>Vamos a aprender angular juntos</p>
-    <videojuego></videojuego>
+<div [ngStyle] = "{'background': config.fondo}">
+    <h1>{{title}} </h1>
+    <p>{{descripcion}}</p>
+    <button (click) = "hideShowVideojuegos()">Ocultar </button>
+    <videojuego *ngIf="mostrarVideojuegos"></videojuego>
+    <zapatillas></zapatillas>
+    <cursos></cursos>
 </div>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->

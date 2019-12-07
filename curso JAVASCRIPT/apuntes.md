@@ -1144,5 +1144,26 @@ npm cache clear --force
 
 
 GENERAR PROYECTO ANGULAR
-
 ng new nombre-proyecto
+
+
+LANZAR PROYECTO EN SERVER LOCAL
+ng serve
+
+GENERAR COMPONENTES (con cmd no con cygwin)
+ng generate component nombre-componente
+
+
+HOOKS 
+
+INTERFAZ OnInit
+
+metodo que se ejecuta nada más el componente;
+
+INTERFAZ DoCheck
+
+se ejecuta cada vez que se hace un cambio en el codigo
+
+OnDestroy
+
+Se ejecuta cuando se destruye un componente
